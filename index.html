@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Wepsite</title>
+    <link rel="stylesheet" href="style.css"> 
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>B</span>ala Ahir </a>
+        <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+
+        <div class="menu-btn">
+            <span>INTRO</span>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!-- Home section -->
+    <section class="home">
+        <div>
+            <div class="home-text">
+                <span>Data Scientist</span>
+                <h1>M Balaji</h1>
+                <p>A dedicated data scientist passionate about transforming raw data into actionable insights, 
+                    I thrive on solving complex problems and driving innovation through data-driven decision-making</p>
+                <div class="main-btn">
+                    <a href="Balaji.pdf.pdf" download="" class="btn">Download Resume</a>
+                    <a href="#contact" class="btn" id="btn2">Hire Me Now</a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="profile1.jpg" >
+        </div>
+    </section>
+    <div class="share">
+        <p>Check Out My:</p>
+        <div class="social">
+            <a href=""><i class='bx bxl-linkedin'></i></a>
+            <a href=""><i class='bx bxl-github'></i></a>
+            <a href=""><i class='bx bxl-instagram'></i></a>
+            <a href=""><i class='bx bxl-twitter'></i></a>
+        </div>
+    </div>   
+
+    <!-- About Section -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="profile2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>I’m a second-year Data Science student at The American College, affiliated with <br> The Kamaraj University in Madurai.
+                         I'm passionate about data science and <br> eager to solve real-world problems with data-driven insights. 
+                        <br>I'm continuously learning and exploring new technologies to enhance my skills in this dynamic field.</p>
+                        <div class="tab-tittles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>Python</span>
+                                    <div>Proficient in using Python for data analysis, Machine Learning, and Deep Learning.</div>
+                                </li>
+                                <li>
+                                    <span>Machine Learning</span>
+                                    <div>Experience with supervised and unsupervised learning algorithms, model evaluation, and tuning.</div>
+                                </li>
+                                <li>
+                                    <span>Deep Learning</span>
+                                    <div>Skilled in building neural networks using frameworks like TensorFlow and Keras.</div>
+                                </li>
+                                <li>
+                                    <span>SQL</span>
+                                    <div>Storing and processing information in relational databases, query optimization.</div>
+                                </li>
+                                <li>
+                                    <span>Power BI</span>
+                                    <div>Data visualization and dashboard creation for insightful data presentations.</div>
+                                </li>
+                                <li>
+                                    <span>HTML, CSS & Basic JavaScript</span>
+                                    <div>Front-end development skills for creating responsive and interactive web pages.</div>
+                                </li>
+                                <li>
+                                    <span>Excel</span>
+                                    <div>Advanced skills in data analysis, pivot tables, and creating complex formulas.</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>
+                                    <span>Still Learning, Developing My Skills</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li class="education-item">
+                                    <span>2023 - 2026</span>
+                                    <div>The American College, Madurai</div>
+                                    <h3>B.voc Data Science</h3>
+                                </li>
+                                <li class="education-item">
+                                    <span>2021 - 2023</span>
+                                    <div>Government Higher Secondary School, Vilathikulam</div>
+                                    <h3>11th and 12th grades</h3>
+                                </li>
+                                <li class="education-item">
+                                    <span>2011 - 2021</span>
+                                    <div>Government Higher Secondary School, Melmanthai</div>
+                                    <h3>1th and 10th grades</h3>
+                                </li>
+                            </ul>
+                        </div>
+                    
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Projects section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle-2">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="crud image.jpg">
+                    <div class="layer">
+                        <h3>CRUD application</h1>
+                        <p>Utilized Python and SQL for CRUD development, showcasing proficiency in database management.</p>
+                    </div>     
+                </div>
+                <div class="work">
+                    <img src="portfolio.jpg">
+                    <div class="layer">
+                        <h3>Cricksy</h3>
+                        <p>
+                            Cricksy, my passion project, connects cricket enthusiasts with sharing and updates, featuring login and signup</p>
+                        <a href="http://localhost/cricksy/index.html"><i class='bx bx-link-external'></i></a>
+                
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="powerbi.jpg" >
+                    <div class="layer">
+                        <h3>Power BI</h3>
+                        <p> Power BI IPL dashboard analyzing scores, trends, key stats, and title winners from 2008-2022.</p>
+                        <a href="https://onedrive.live.com/?authkey=%21AAvj6m81LFlPkuk&id=7E7094F73A953236%211684&cid=7E7094F73A953236&parId=root&parQt=sharedby&o=OneUp"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="seemore.html" class="btn3">See More</a>
+
+        </div>
+    </div>
+<!-- Contact Section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 id="contact-title">Contact Me</h1>
+                <p><i class='bx bx-mail-send'></i>balaahir007@gmail.com</p>
+                <p><i class='bx bxs-phone'></i>877854177</p>
+                <div class="social">
+                    <a href=""><i class='bx bxl-linkedin'></i></a>
+                    <a href=""><i class='bx bxl-github'></i></a>
+                    <a href=""><i class='bx bxl-instagram'></i></a>
+                    <a href=""><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" class="name" placeholder="Your Name" required>
+                    <input type="email" class="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright © 2024 <i class='bx bxs-heart' >Made with Balaji</i></p>
+</div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+     <script src="script.js"></script>
+
+</body>
+</html>

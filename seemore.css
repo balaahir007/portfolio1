@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik',sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --bg-color:#1f1f21;
+    --text-color:#fff;
+    --main-color:#ffae00;
+
+    --big-font: 7rem;
+    --p-font: 1.1rem;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    overflow-x:hidden ;
+
+}
+h1{
+    width: 100%;
+    height: 100%;
+    background: var(--main-color);
+    margin-top: 10px;
+    color: var(--text-color);
+    
+    
+}
+.container{
+    width: 100%;
+    width: 70%;
+    transition: height 0.5s;
+    margin: 10%;
+}
+.layer{
+    margin-bottom: 10%;
+}
